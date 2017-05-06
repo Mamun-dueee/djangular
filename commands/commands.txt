@@ -8,11 +8,11 @@ ls
 git remote
 git remote remove origin
 git remote
-virtualenv .        (---> didn't work.)
-virtualenv3 .       (---> didn't work.)
+virtualenv .
+virtualenv3 .
 locate virtualenv
-venv .              (---> didn't work.)
-python3 -m venv .   (---> worked )
+venv .   
+python3 -m venv .
 clear
 ls
 source bin/activate
