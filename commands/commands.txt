@@ -1,0 +1,39 @@
+mkdir djangular && cd djangular
+ls
+git clone https://github.com/codingforentrepreneurs/Blog-API-with-Django-Rest-Framework .
+vim .bash_history
+cd M
+cd djangular
+ls
+git remote
+git remote remove origin
+git remote
+virtualenv .
+virtualenv3 .
+locate virtualenv
+venv .
+python3 -m venv .
+clear
+ls
+source bin/activate
+pip install -r requirements.txt
+pip freeze
+pip install django==1.10.1
+pip install djangorestframework --upgrade
+pip install djangorestframework-jwt --upgrade
+subl
+cd src
+python manage.py runserver
+cd ..
+pip install Pillow==3.1.0
+pip freeze
+cd src
+python manage.py runserver
+pip install Pillow
+pip install --upgrade pip
+python manage.py runserver
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+deactivate
+vim .bash_history
